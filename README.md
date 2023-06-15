@@ -19,7 +19,7 @@ Based on the results, here is the summary of the models and their corresponding 
 
 Models------------------------------------	RMSE Score
 
-AR(1)--------------------------------------	1842.51
+AR(1,0,0)----------------------------------  1842.51
 
 ARIMA(0, 1, 0)-----------------------------	1866.22
 
@@ -36,7 +36,7 @@ Prophet------------------------------------	4119.08
 
 1. ARIMA Models:
     * The ARIMA(2, 1, 2) model performed the best among the tested ARIMA models, with an RMSE score of 473.62. 
-    * It is important to select appropriate ARIMA parameters based on the data characteristics. In this case, AR(1) and ARIMA(0, 1, 0) also showed reasonably good performance.
+    * It is important to select appropriate ARIMA parameters based on the data characteristics. In this case, AR(1,0,0) and ARIMA(0, 1, 0) also showed reasonably good performance.
 2. XGBoost Model:
     * The XGBoost model achieved an RMSE score of 3726.32. This model utilizes a gradient boosting algorithm and is known for its ability to handle complex patterns and nonlinear relationships in the data.
 3. Prophet Model:
